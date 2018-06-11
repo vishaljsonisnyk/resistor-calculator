@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResistorRating.Library", "ResistorRatingLibrary\ResistorRating.Library.csproj", "{0150AEBF-1585-4174-99C1-F70CB5CA4B2D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResistorRating.Api", "ResistorRating.Api\ResistorRating.Api.csproj", "{E069EA04-D82D-4550-8F66-0960B0193295}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResistorRating.Web", "ResistorRating.Web\ResistorRating.Web.csproj", "{922A606E-F732-456E-BBE7-B8B60B9C126C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResistorRating.Test", "ResistorRating.Test\ResistorRating.Test.csproj", "{27072415-BBFC-4083-B57B-A35941745F9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResistorRating.Library", "ResistorRating.Library\ResistorRating.Library.csproj", "{8FBBA282-8822-483F-A4EE-EACA91952292}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0150AEBF-1585-4174-99C1-F70CB5CA4B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0150AEBF-1585-4174-99C1-F70CB5CA4B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0150AEBF-1585-4174-99C1-F70CB5CA4B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0150AEBF-1585-4174-99C1-F70CB5CA4B2D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E069EA04-D82D-4550-8F66-0960B0193295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E069EA04-D82D-4550-8F66-0960B0193295}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E069EA04-D82D-4550-8F66-0960B0193295}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{27072415-BBFC-4083-B57B-A35941745F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27072415-BBFC-4083-B57B-A35941745F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27072415-BBFC-4083-B57B-A35941745F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FBBA282-8822-483F-A4EE-EACA91952292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FBBA282-8822-483F-A4EE-EACA91952292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FBBA282-8822-483F-A4EE-EACA91952292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FBBA282-8822-483F-A4EE-EACA91952292}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

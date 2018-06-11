@@ -164,8 +164,8 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ResistorRatingLibrary\ResistorRating.Library.csproj">
-      <Project>{0150AEBF-1585-4174-99C1-F70CB5CA4B2D}</Project>
+    <ProjectReference Include="..\ResistorRating.Library\ResistorRating.Library.csproj">
+      <Project>{8fbba282-8822-483f-a4ee-eaca91952292}</Project>
       <Name>ResistorRating.Library</Name>
     </ProjectReference>
   </ItemGroup>
